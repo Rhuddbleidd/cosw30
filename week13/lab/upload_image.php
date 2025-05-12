@@ -1,19 +1,25 @@
-<!-- <!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Upload an Image</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .error {
             font-weight: bold;
             color: #C00;
         }
+
+        input {
+            cursor: pointer;
+        }
     </style>
+    <title>Upload Image</title>
 </head>
 
 <body>
     <?php # Script 11.2 - upload_image.php
+    // git test
 
     // Check if the form has been submitted:
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -77,7 +83,7 @@
     } // End of the submitted conditional.
     ?>
 
-    <form enctype="multipart/form-data" action="upload_image.php" method="post">
+    <form enctype="multipart/form-data" action="upload_images.php" method="post">
 
         <input type="hidden" name="MAX_FILE_SIZE" value="524288">
 
@@ -87,9 +93,8 @@
             <p><strong>File:</strong> <input type="file" name="upload"></p>
 
         </fieldset>
-        <div align="center"><input type="submit" name="submit" value="Submit"></div>
-
+        <div style="margin-left: auto; margin-right: auto; width: 100px;"><input type="submit" name="submit" value="Submit"></div>
     </form>
 </body>
 
-</html> -->
+</html>
