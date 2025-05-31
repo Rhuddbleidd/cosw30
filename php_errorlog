@@ -1,0 +1,18 @@
+[31-May-2025 02:15:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dbjhmiadodszur.users' doesn't exist in /home/customer/www/aquarius.webdevlearning.org/public_html/public_html/cosw30/week15/homework/includes/login_functions.inc.php:58
+Stack trace:
+#0 /home/customer/www/aquarius.webdevlearning.org/public_html/public_html/cosw30/week15/homework/includes/login_functions.inc.php(58): mysqli_query(Object(mysqli), 'SELECT id, firs...')
+#1 /home/customer/www/aquarius.webdevlearning.org/public_html/public_html/cosw30/week15/homework/login.php(17): check_login(Object(mysqli), 'example@hotmail...', 'vdsv')
+#2 {main}
+  thrown in /home/customer/www/aquarius.webdevlearning.org/public_html/public_html/cosw30/week15/homework/includes/login_functions.inc.php on line 58
+[31-May-2025 02:16:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dbjhmiadodszur.users' doesn't exist in /home/customer/www/aquarius.webdevlearning.org/public_html/public_html/cosw30/week15/homework/includes/login_functions.inc.php:58
+Stack trace:
+#0 /home/customer/www/aquarius.webdevlearning.org/public_html/public_html/cosw30/week15/homework/includes/login_functions.inc.php(58): mysqli_query(Object(mysqli), 'SELECT id, firs...')
+#1 /home/customer/www/aquarius.webdevlearning.org/public_html/public_html/cosw30/week15/homework/login.php(17): check_login(Object(mysqli), 'example@hotmail...', 'bfdber')
+#2 {main}
+  thrown in /home/customer/www/aquarius.webdevlearning.org/public_html/public_html/cosw30/week15/homework/includes/login_functions.inc.php on line 58
+[31-May-2025 02:16:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dbjhmiadodszur.users' doesn't exist in /home/customer/www/aquarius.webdevlearning.org/public_html/public_html/cosw30/week15/homework/includes/login_functions.inc.php:58
+Stack trace:
+#0 /home/customer/www/aquarius.webdevlearning.org/public_html/public_html/cosw30/week15/homework/includes/login_functions.inc.php(58): mysqli_query(Object(mysqli), 'SELECT id, firs...')
+#1 /home/customer/www/aquarius.webdevlearning.org/public_html/public_html/cosw30/week15/homework/login.php(17): check_login(Object(mysqli), 'example@hotmail...', 'vdsvds')
+#2 {main}
+  thrown in /home/customer/www/aquarius.webdevlearning.org/public_html/public_html/cosw30/week15/homework/includes/login_functions.inc.php on line 58
